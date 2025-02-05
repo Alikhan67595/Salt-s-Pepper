@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Headland+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: inter, barlow, sans-serif, serif;
+
+}
+
+body {
+    user-select: none;
+    background-color: rgb(0, 0, 0) !important;
+    color: white !important;
+ 
+}
+
+nav {
+    background-color: rgb(0, 0, 0);
+    width: 100vw;
+    height: 15vh;
+}
+
+.nav-logo {
+    width: 165px;
+    margin-top: 7px;
+}
+
+.first-ul {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    color: white;
+    margin: 0;
+}
+
+.second-ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    gap: 10px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.second-ul .color-but {
+    display: flex;
+}
+
+.hide-li {
+    margin-right: 15px;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.color-but {
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    cursor: pointer;
+}
+
+.arrow {
+    height: 25px;
+    width: 25px;
+    border-radius: 50% !important;
+    background-color: white !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 7px;
+    cursor: pointer;
+}
+
+.arrow img {
+    height: 25px;
+    width: 25px;
+}
+
+/* ye wo button hai jin per nav bar kai andar designing hoi hai */
+
+.li-but {
+    font-size: 14px;
+    padding: 12px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.hide-but {
+    background-color: rgba(145, 107, 107, 0);
+    border: 1px solid white;
+    margin-right: 0;
+    padding: 13px 20px;
+}
+
+
+@media screen and (min-width: 992px) {
+    .none {
+        display: none;
+    }
+
+    .nav-div {
+        /* margin: auto; */
+        /* background-color: rgb(107, 93, 93); */
+        width: 80vw;
+        max-width: 1440px;
+        height: 100%;
+        margin: auto;
+        /* position: relative; */
+    }
+
+    /* .moving-imgs{
+        margin-top:15vh ;
+    
+    } */
+
+}
+
+
+@media screen and (max-width: 992px) {
+
+    nav {
+        width: 100vw;
+        height: 11vh;
+    }
+
+    .box {
+        display: flex;
+        /* background-color: seashell; */
+        border: 1px solid white;
+        border-radius: 5px;
+        width: 30px;
+        height: 30px;
+        margin-left: 5px !important
+    }
+
+    .nav-div {
+        height: 100%;
+    }
+
+    .hide-li {
+        display: none;
+    }
+
+    .color-but {
+        align-items: center;
+        justify-content: center;
+        background-color: red;
+        padding: 7px 8px;
+        font-size: 10px;
+        margin-right: 10px;
+    }
+
+    .arrow {
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 5px;
+    }
+
+    .arrow img {
+        height: 25px;
+        width: 25px;
+    }
+
+    .nav-logo {
+        width: 100px;
+        /* margin-top: 7px; */
+    }
+
+    /* .moving-imgs{
+        margin-top:10vh ;
+    
+    } */
+}
+
+@media screen and (max-width: 450px) {
+    .box {
+        margin-right: 50px;
+    }
+
+    .nav-logo {
+        width: 80px;
+        margin-top: auto;
+    }
+}
