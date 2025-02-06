@@ -18,6 +18,7 @@ nav {
     background-color: rgb(0, 0, 0);
     width: 100vw;
     height: 15vh;
+    box-sizing: border-box;
 }
 
 .nav-logo {
@@ -86,7 +87,7 @@ nav a{
 
 .li-but {
     font-size: 14px;
-    padding: 12px 20px;
+    padding: 12px 25px;
     border-radius: 30px;
     cursor: pointer;
 }
@@ -107,7 +108,7 @@ nav a{
     .nav-div {
         /* margin: auto; */
         /* background-color: rgb(107, 93, 93); */
-        width: 80vw;
+        width: 85vw;
         max-width: 1440px;
         height: 100%;
         margin: auto;
@@ -157,7 +158,7 @@ nav a{
     }
 
     .arrow {
-        height: 20px;
+        height: 19px;
         width: 20px;
         border-radius: 50%;
         background-color: white;
@@ -191,5 +192,19 @@ nav a{
     .nav-logo {
         width: 80px;
         margin-top: auto;
+    }
+
+    /* .color-but{
+        width: 110px;
+        padding: 8px 8px;
+        margin-right: 0%;
+        position: absolute;
+        right: 1%;
+        top: 3%; */
+    /* } */
+    .nav-logo{
+        position: absolute;
+        top: 3.5%;
+        right: 43%;
     }
 }
